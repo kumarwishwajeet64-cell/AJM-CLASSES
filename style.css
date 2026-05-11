@@ -1,0 +1,87 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f3f3f3;
+}
+
+.navbar{
+background:#050522;
+padding:20px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo h2{
+color:white;
+font-size:35px;
+}
+
+.logo span{
+color:#7d3cff;
+}
+
+.logo p{
+color:#ccc;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+.hero{
+min-height:90vh;
+background:linear-gradient(to right,#050522,#17004d);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:50px 8%;
+color:white;
+}
+
+.left{
+width:50%;
+}
+
+.welcome{
+background:#4121b7;
+padding:10px 20px;
+border-radius:20px;
+}
+
+.left h1{
+font-size:80px;
+margin-top:20px;
+}
+
+.left h1 span{
+color:#7d3cff;
+}
+
+.left p{
+font-size:22px;
+margin-top:20px;
+line-height:35px;
+}
+
+button{
+margin-top:30px;
+background:#7d3cff;
+color:white;
+border:none;
+padding:15px 35px;
+border-radius:10px;
+font-size:18px;
+}
+
+.right img{
+width:450px;
+}
