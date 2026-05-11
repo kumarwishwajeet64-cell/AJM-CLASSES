@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>AJM CLASSES</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+<!-- HERO SECTION -->
 
-<div class="navbar">
+<section class="hero">
 
-  <div class="logo">
-    AJM <span>CLASSES</span>
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+
+    <div class="logo">
+      AJM <span>CLASSES</span>
+    </div>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Notes</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="nav-btns">
+      <button class="login">Login</button>
+      <button class="register">Register</button>
+    </div>
+
+  </nav>
+
+  <!-- HERO CONTENT -->
+
+  <div class="hero-content">
+
+    <!-- LEFT -->
+
+    <div class="left">
+
+      <span class="tag">
+        #1 Learning Platform
+      </span>
+
+      <h1>
+        Upgrade Your Future With
+        <span>AJM CLASSES</span>
+      </h1>
+
+      <p>
+        Join thousands of students preparing for SSC, Railway,
+        Banking and Competitive Exams with expert guidance.
+      </p>
+
+      <div class="buttons">
+        <button class="join-btn">
+          Join Now
+        </button>
+
+        <button class="course-btn">
+          Explore Courses
+        </button>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="right">
+
+      <div class="circle"></div>
+
+      <img src="https://i.ibb.co/r4w7K8T/student.png">
+
+    </div>
+
   </div>
 
-  <div class="menu">
-    <a href="#">Home</a>
-    <a href="#">Courses</a>
-    <a href="#">PDF</a>
-    <a href="#">Contact</a>
-  </div>
-
-</div>
-
-<!-- LOGIN REGISTER -->
-
-<div class="container">
-
-  <!-- LOGIN -->
-
-  <div class="box">
-
-    <h2>Sign In</h2>
-
-    <input type="text" placeholder="Enter Username">
-
-    <input type="password" placeholder="Enter Password">
-
-    <button>Login</button>
-
-  </div>
-
-  <!-- REGISTER -->
-
-  <div class="box">
-
-    <h2>Register</h2>
-
-    <input type="text" placeholder="Full Name">
-
-    <input type="email" placeholder="Email">
-
-    <input type="password" placeholder="Password">
-
-    <button>Register</button>
-
-  </div>
-
-</div>
+</section>
 
 </body>
 </html>
