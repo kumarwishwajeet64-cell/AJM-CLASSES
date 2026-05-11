@@ -1,87 +1,87 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
 }
 
 body{
-background:#f3f3f3;
+  background:linear-gradient(to right,#050522,#17004d);
+  min-height:100vh;
 }
+
+/* NAVBAR */
 
 .navbar{
-background:#050522;
-padding:20px 5%;
-display:flex;
-justify-content:space-between;
-align-items:center;
+  width:100%;
+  background:#0a0a2a;
+  padding:20px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 
-.logo h2{
-color:white;
-font-size:35px;
+.logo{
+  color:white;
+  font-size:32px;
+  font-weight:bold;
 }
 
 .logo span{
-color:#7d3cff;
-}
-
-.logo p{
-color:#ccc;
+  color:#7d3cff;
 }
 
 .menu a{
-color:white;
-text-decoration:none;
-margin:15px;
-font-size:18px;
+  color:white;
+  text-decoration:none;
+  margin:15px;
+  font-size:18px;
 }
 
-.hero{
-min-height:90vh;
-background:linear-gradient(to right,#050522,#17004d);
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:50px 8%;
-color:white;
+/* CONTAINER */
+
+.container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+  margin-top:80px;
+  flex-wrap:wrap;
 }
 
-.left{
-width:50%;
+/* BOX */
+
+.box{
+  width:350px;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 5px 20px rgba(0,0,0,0.4);
 }
 
-.welcome{
-background:#4121b7;
-padding:10px 20px;
-border-radius:20px;
+.box h2{
+  margin-bottom:30px;
+  color:#17004d;
 }
 
-.left h1{
-font-size:80px;
-margin-top:20px;
+.box input{
+  width:100%;
+  padding:15px;
+  margin:12px 0;
+  border:1px solid #ccc;
+  border-radius:10px;
+  font-size:16px;
 }
 
-.left h1 span{
-color:#7d3cff;
-}
-
-.left p{
-font-size:22px;
-margin-top:20px;
-line-height:35px;
-}
-
-button{
-margin-top:30px;
-background:#7d3cff;
-color:white;
-border:none;
-padding:15px 35px;
-border-radius:10px;
-font-size:18px;
-}
-
-.right img{
-width:450px;
+.box button{
+  width:100%;
+  padding:15px;
+  margin-top:20px;
+  border:none;
+  border-radius:10px;
+  background:#7d3cff;
+  color:white;
+  font-size:18px;
 }
